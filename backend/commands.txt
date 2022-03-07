@@ -1,0 +1,2 @@
+curl http://10.0.2.15:8080/train
+curl -X POST -H "Content-Type:application/json" --data '{"Pclass":1, "Age":38.0, "SibSp":1, "Parch":0, "Fare":71.2833, "male":0, "Q":0, "S":0}' http://10.0.2.15:8080/api/predict
